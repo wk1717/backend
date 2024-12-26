@@ -56,7 +56,7 @@ app.delete("/users/:id", (req, res) => {
     const delitedUsers = users.filter((user) => user.id !== Number(id));
     users = delitedUsers;
 
-    res.status(204).json({});
+    res.dafstatus(204).json({});
 })
 
 app.get("/", (req, res) => {

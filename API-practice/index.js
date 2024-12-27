@@ -64,5 +64,5 @@ app.get("/", (req, res) => {
 })
 
 app.listen(8000, () => {
-    console.log("서버가 시작되었습니다");
+    console.log("서버가 시작되었습니다.");
 })
